@@ -1,0 +1,30 @@
+#viewport {
+    /**
+     * Position relative so that canvas elements
+     * inside of it will be relative to the parent
+     */
+    position: relative;
+    width: 100%;
+}
+ 
+#viewport canvas {
+    /**
+     * Position absolute provides canvases to be able
+     * to be layered on top of each other
+     * Be sure to remember a z-index!
+     */
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    background-color: transparent;
+}
+    /**
+
+canvas {
+     // Set transparent to let any other canvases render through
+    background-color: transparent;
+}
+     */
+body {
+    background-color: #404040;
+}
